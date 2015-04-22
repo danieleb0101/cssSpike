@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+  <name>cssExtension</name>
+  <displayName>cssExtension Magnolia Module</displayName>
+  <description>${project.description}</description>
+  <class>com.priocept.photobox.CSSExtensionModule</class>
+  <versionHandler>com.priocept.photobox.setup.CSSExtensionModuleVersionHandler</versionHandler>
+  <version>1.0-SNAPSHOT</version>
+
+  <dependencies>
+    <dependency>
+      <name>core</name>
+      <version>5.3.8/*</version>
+    </dependency>
+    <dependency>
+      <name>standard-templating-kit</name>
+      <version>2.8.8/*</version>
+    </dependency>
+    <dependency>
+      <name>standard-templating-kit</name>
+      <version>2.8.8/*</version>
+    </dependency>
+    <dependency>
+      <name>demo-project</name>
+      <version>2.8.8/*</version>
+    </dependency>
+    
+    
+  <!-- Add other dependencies here, e.g the standard-templating-kit, or the multisite module with the enterprise edition. -->
+  <!--
+    <dependency>
+      <name>standard-templating-kit</name>
+      <version>2.7/*</version>
+    </dependency>
+    <dependency>
+      <name>multisite</name>
+      <version>1.0/*</version>
+    </dependency>
+  -->
+  </dependencies>
+</module>
